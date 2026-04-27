@@ -4,8 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: Good-Great-Grand-Wonderful
-      url-base: https://github.com/Good-Great-Grand-Wonderful
+    - name: lukehayfield
+      url-base: https://github.com/lukehayfield
   projects:
     - name: zmk
       remote: zmkfirmware
