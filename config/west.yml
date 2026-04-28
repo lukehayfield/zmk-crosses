@@ -4,14 +4,14 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: Good-Great-Grand-Wonderful
-      url-base: https://github.com/Good-Great-Grand-Wonderful
+    - name: lukehayfield
+      url-base: https://github.com/lukehayfield
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: gggw-zmk-keebs
-      remote: Good-Great-Grand-Wonderful
+      remote: Glukehayfield
       revision: main
       import: config/west.yml
   self:
