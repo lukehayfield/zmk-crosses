@@ -111,10 +111,10 @@
         nav_layer {
             display-name = "Raise";
             bindings = <
-&none  &none  &none  &none   &none   &none   &none   &kp HOME      &kp UP            &kp END        &none  &none
-&none  &none  &none  &none   &none   &none   &none   &kp LEFT      &kp DOWN          &kp RIGHT      &none  &none
-&none  &none  &none  &none   &none   &none   &none   &kp LC(LEFT)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &none  &none
-                     &trans  &trans  &trans  &trans  &trans        &trans
+&none  &kp ESCAPE  &none  &none   &none   &none   &none   &kp HOME      &kp UP            &kp END        &kp DQT  &none
+&none  &kp TAB     &none  &none   &none   &none   &none   &kp LEFT      &kp DOWN          &kp RIGHT      &kp SQT  &none
+&none  &none       &none  &none   &none   &none   &none   &kp LC(LEFT)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &none    &none
+                          &trans  &trans  &trans  &trans  &trans        &trans
             >;
 
             label = "NAV";
